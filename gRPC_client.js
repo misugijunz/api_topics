@@ -27,6 +27,7 @@ client.multiply(multiplyRequest, (error, response) => {
   if (error) {
     console.error('Error:', error);
     return;
+  }
  
     console.log('Multiply Result:', response.getProduct());
 });
